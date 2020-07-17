@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D2587A00-0B17-4717-9DF1-0F0C8E5079A7}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		README.md = README.md
+		build\Version.props = build\Version.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnetCampus.CommandLineArgsViewer", "src\dotnetCampus.CommandLineArgsViewer\dotnetCampus.CommandLineArgsViewer.csproj", "{7CC0A6DF-2E2F-4C32-BD91-36CC0DCE7B45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CC0A6DF-2E2F-4C32-BD91-36CC0DCE7B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC0A6DF-2E2F-4C32-BD91-36CC0DCE7B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC0A6DF-2E2F-4C32-BD91-36CC0DCE7B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC0A6DF-2E2F-4C32-BD91-36CC0DCE7B45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {908D012C-16D1-4124-8962-7070FEF604AF}
+	EndGlobalSection
+EndGlobal
