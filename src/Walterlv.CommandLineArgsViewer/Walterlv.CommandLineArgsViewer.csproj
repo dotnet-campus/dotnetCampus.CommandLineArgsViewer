@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>ShowArgs</ToolCommandName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="dotnetCampus.CommandLine" Version="3.1.1" />
+    <PackageReference Include="Lsj.Util.Win32" Version="4.1.8" />
+    <PackageReference Include="Walterlv.Logger" Version="5.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\LocalizableStrings.resx" Generator="ResXFileCodeGenerator" LastGenOutput="LocalizableStrings.Designer.cs" />
+    <Compile Update="Properties\LocalizableStrings.Designer.cs" DesignTime="True" AutoGen="True" DependentUpon="LocalizableStrings.resx" />
+  </ItemGroup>
+
+</Project>
