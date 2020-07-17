@@ -5,9 +5,9 @@ using dotnetCampus.Cli;
 
 using Lsj.Util.Win32;
 
-using Walterlv.CommandLineArgsViewer.Properties;
+using dotnetCampus.CommandLineArgsViewer.Properties;
 
-namespace Walterlv.CommandLineArgsViewer
+namespace dotnetCampus.CommandLineArgsViewer
 {
     public class Options
     {

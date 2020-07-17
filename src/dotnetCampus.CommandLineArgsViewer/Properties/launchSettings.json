@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "Walterlv.CommandLineArgsViewer": {
+    "dotnetCampus.CommandLineArgsViewer": {
       "commandName": "Project",
       "commandLineArgs": "/select,\"C:\\test\\test,1.csproj\""
     }

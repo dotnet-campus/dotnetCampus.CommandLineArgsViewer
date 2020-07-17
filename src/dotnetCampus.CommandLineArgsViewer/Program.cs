@@ -1,8 +1,8 @@
 ﻿using dotnetCampus.Cli;
 
-using Walterlv.CommandLineArgsViewer;
+using dotnetCampus.CommandLineArgsViewer;
 
-namespace Walterlv.CommandLineViewer
+namespace dotnetCampus.CommandLineViewer
 {
     class Program
     {
