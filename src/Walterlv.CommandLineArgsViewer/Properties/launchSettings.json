@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Walterlv.CommandLineArgsViewer": {
+      "commandName": "Project",
+      "commandLineArgs": "/select,\"C:\\test\\test,1.csproj\""
+    }
+  }
+}
