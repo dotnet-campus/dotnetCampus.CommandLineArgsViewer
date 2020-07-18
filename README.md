@@ -1,6 +1,6 @@
 # dotnetCampus.CommandLineArgsViewer
 
-This tool is used to observe that the parameters of the incoming command line are as expected.
+You can view all the arguments passed from shells to this tool which helps you to debug command-lines.
 
 | Build | NuGet |
 |--|--|
@@ -8,9 +8,9 @@ This tool is used to observe that the parameters of the incoming command line ar
 
 ## Feature
 
-- Observe the count of the arguaments.
-- The character that is escaped.
-- The difference between Kernal32 and .NET
+- View the count of the arguments.
+- The characters which are escaped.
+- View the command line loss of the .NET version comparing with the Kernel32 version.
 
 ## Install
 
@@ -20,9 +20,14 @@ dotnet tool install --global dotnetCampus.CommandLineArgsViewer
 
 ## Usage
 
-Input the arguments after ShowArgs, and you will find what is the application actually received arguments.
+Type any arguments after the command `ShowArgs`, and you'll view the command-line and args that an app (or a .NET app) will actually receive.
 
 ```
 ShowArgs [args]
 ```
 
+For example, you can type the command line below:
+
+```
+ShowArgs /select,"D:\1,1.txt"
+```
