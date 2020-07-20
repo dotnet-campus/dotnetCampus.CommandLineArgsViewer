@@ -1,6 +1,6 @@
 # dotnetCampus.CommandLineArgsViewer
 
-You can view all the arguments passed from shells to this tool which helps you to debug command-lines.
+This is a tool to debug command-lines that you can view all the arguments passed from shells.
 
 [中文](docs/zh-cn/README.md)
 
@@ -11,7 +11,8 @@ You can view all the arguments passed from shells to this tool which helps you t
 ## Feature
 
 - View the count of the arguments.
-- The characters which are escaped.
+- View the shell escaping behavior of any characters (quote etc.)
+- View the command line loss from the shells (e.g. PowerShell lost quotes comparing to CMD).
 - View the command line loss of the .NET version comparing with the Kernel32 version.
 
 ## Install
